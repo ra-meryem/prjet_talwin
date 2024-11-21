@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center">
+          <h1 class="text-xl font-bold">Blogy</h1>
+          <nav>
+            <ul class="flex space-x-4">
+              <li><a href="#" class="hover:text-gray-300">Accueil</a></li>
+              <li><a href="#" class="hover:text-gray-300">Articles</a></li>
+              <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <section class="py-8 bg-gray-100">
+        <div class="container mx-auto grid md:grid-cols-3 gap-6">
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="7ee6cbe1f6e26889721904b2059a964a.jpg" alt="Article 1" class="w-full h-48 object-cover">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Les Tendances du Web en 2024</h3>
+                <p class="text-gray-600">Découvrez les dernières tendances du développement web et comment elles vont transformer l'industrie dans les années à venir.</p>
+              </div>
+          
+          </div>
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="9db43382c68757eb282cd5f9e47f1f7e.jpg" alt="Article 1" class="w-full h-48 object-cover">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Les Meilleurs Outils pour Développeurs</h3>
+                <p class="text-gray-600">Explorez les meilleurs outils de développement en 2024, de l'éditeur de texte aux outils de gestion de projet pour optimiser votre workflow.</p>
+              </div>
+          </div>
+        
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="363b74cbf38cc30cb3daaf29297b6b5d.jpg" alt="Article 1" class="w-full h-48 object-cover">
+            <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <h3 class="text-xl font-bold text-gray-800 mb-4">Comment Apprendre le Codage en 2024</h3>
+                <p class="text-gray-600">Le codage devient une compétence de plus en plus essentielle, de l'éditeur de texte aux outils de gestion de projet pour optimiser votre workflow.</p>
+              </div>
+        </div>
+      </section>
+      <section class="py-8">
+        <div class="container mx-auto text-center">
+          <h2 class="text-xl font-bold mb-4">Catégories</h2>
+          <div class="flex flex-wrap justify-center space-x-4">
+            <span class="bg-blue-500 text-white py-2 px-4 rounded-full">Technologie</span>
+            <span class="bg-green-500 text-white py-2 px-4 rounded-full">Lifestyle</span>
+            <span class="bg-red-500 text-white py-2 px-4 rounded-full">Voyage</span>
+          </div>
+        </div>
+      </section>
+      <section class="py-8 bg-gray-100">
+        <div class="container mx-auto">
+          <h2 class="text-xl font-bold mb-4">Articles récents</h2>
+          <ul class="space-y-4">
+            <li class="border-b pb-2">
+              <a href="#" class="text-lg text-blue-500 hover:underline">Comment Apprendre le Codage en 2024</a>
+              <span class="text-sm text-gray-600 block">Publié le : 01 Novembre 2024</span>
+            </li>
+            <div class="container mx-auto">
+                <h2 class="text-xl font-bold mb-4">Articles récents</h2>
+                <ul class="space-y-4">
+                  <li class="border-b pb-2">
+                    <a href="#" class="text-lg text-blue-500 hover:underline">Les Meilleurs Outils pour Développeurs</a>
+                    <span class="text-sm text-gray-600 block">Publié le : 05 Novembre 2024</span>
+                  </li>
+                  <div class="container mx-auto">
+                    <h2 class="text-xl font-bold mb-4">Articles récents</h2>
+                    <ul class="space-y-4">
+                      <li class="border-b pb-2">
+                        <a href="#" class="text-lg text-blue-500 hover:underline">Les Tendances du Web en 2024</a>
+                        <span class="text-sm text-gray-600 block">Publié le : 21 Novembre 2024</span>
+                      </li>
+                            
+          </ul>
+        </div>
+      </section>
+      <section class="py-8 bg-white">
+        <div class="container mx-auto text-center">
+          <h2 class="text-xl font-bold mb-4">Abonnez-vous à notre Newsletter</h2>
+          <form class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
+            <input type="email" placeholder="Votre email" class="border p-2 rounded w-full md:w-1/2">
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">S'abonner</button>
+          </form>
+        </div>
+      </section>
+      <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <p class="text-sm">&copy; 2024 Blog Inc. Tous droits réservés.</p>
+          <div class="flex space-x-4">
+            <a href="#" class="text-gray-400 hover:text-white">Facebook</a>
+            <a href="#" class="text-gray-400 hover:text-white">Twitter</a>
+            <a href="#" class="text-gray-400 hover:text-white">LinkedIn</a>
+          </div>
+        </div>
+      </footer>
+                                    
+</body>
+</html>
